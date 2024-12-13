@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.rohit</groupId>
-    <artifactId>SpringBootWithThymeleaf</artifactId>
+    <artifactId>UserManagementSystem</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>SpringBootWithThymeleaf</name>
-    <description>SpringBootWithThymeleaf</description>
+    <name>UserManagementSystem</name>
+    <description>UserManagementSystem</description>
     <url/>
     <licenses>
         <license/>

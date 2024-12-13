@@ -1,6 +1,6 @@
-package com.rohit.springbootwiththymeleaf.repository;
+package com.rohit.usermanagementsystem.repository;
 
-import com.rohit.springbootwiththymeleaf.entity.UserEntity;
+import com.rohit.usermanagementsystem.entity.UserEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

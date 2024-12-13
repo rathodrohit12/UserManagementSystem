@@ -1,14 +1,13 @@
-package com.rohit.springbootwiththymeleaf;
+package com.rohit.usermanagementsystem;
 
-import com.rohit.springbootwiththymeleaf.model.User;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootWithThymeleafApplication {
+public class UserManagementSystemApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootWithThymeleafApplication.class, args);
+        SpringApplication.run(UserManagementSystemApplication.class, args);
         System.out.println("Hello...");
        
     }

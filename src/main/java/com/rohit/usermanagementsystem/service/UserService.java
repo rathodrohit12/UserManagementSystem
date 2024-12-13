@@ -1,7 +1,7 @@
-package com.rohit.springbootwiththymeleaf.service;
+package com.rohit.usermanagementsystem.service;
 
-import com.rohit.springbootwiththymeleaf.entity.UserEntity;
-import com.rohit.springbootwiththymeleaf.model.User;
+import com.rohit.usermanagementsystem.entity.UserEntity;
+import com.rohit.usermanagementsystem.model.User;
 
 import java.util.List;
 

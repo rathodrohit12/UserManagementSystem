@@ -1,4 +1,4 @@
-package com.rohit.springbootwiththymeleaf.config;
+package com.rohit.usermanagementsystem.config;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;

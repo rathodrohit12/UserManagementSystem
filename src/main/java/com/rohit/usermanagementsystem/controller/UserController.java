@@ -1,9 +1,9 @@
-package com.rohit.springbootwiththymeleaf.controller;
+package com.rohit.usermanagementsystem.controller;
 
-import com.rohit.springbootwiththymeleaf.entity.UserEntity;
-import com.rohit.springbootwiththymeleaf.model.User;
-import com.rohit.springbootwiththymeleaf.repository.UserRepository;
-import com.rohit.springbootwiththymeleaf.service.UserService;
+import com.rohit.usermanagementsystem.entity.UserEntity;
+import com.rohit.usermanagementsystem.model.User;
+import com.rohit.usermanagementsystem.repository.UserRepository;
+import com.rohit.usermanagementsystem.service.UserService;
 import jakarta.servlet.http.HttpSession;
 import jakarta.validation.Valid;
 import org.springframework.stereotype.Controller;

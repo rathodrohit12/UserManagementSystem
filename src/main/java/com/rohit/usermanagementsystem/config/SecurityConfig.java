@@ -1,4 +1,4 @@
-package com.rohit.springbootwiththymeleaf.config;
+package com.rohit.usermanagementsystem.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

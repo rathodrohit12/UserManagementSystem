@@ -1,4 +1,4 @@
-package com.rohit.springbootwiththymeleaf.model;
+package com.rohit.usermanagementsystem.model;
 
 
 import jakarta.validation.constraints.Email;
