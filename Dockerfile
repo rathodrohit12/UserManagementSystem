@@ -1,7 +1,10 @@
 # Stage 1: Build the app
 FROM openjdk:21-jdk-slim as build
 
-# Set the working directory inside the container (relative to the Docker context)
+# Install Maven
+RUN apt-get update && apt-get install -y maven
+
+# Set the working directory inside the container
 WORKDIR /app
 
 # Copy the pom.xml to the working directory
