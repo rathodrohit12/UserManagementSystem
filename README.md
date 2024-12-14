@@ -16,7 +16,7 @@ A User Management System built with Spring Boot, featuring a layered architectur
 
 ## Project Folder Structure
 ```
-└── springbootwiththymeleaf
+└── usermanagementsystem
     ├── config              # Configuration classes (e.g., security, data source)
     ├── controller          # Controllers for routing and business logic
     ├── entity              # Entity classes for ORM (e.g., JPA)
@@ -39,7 +39,7 @@ To get started with this project, follow these steps:
 
 ```bash
 git clone [<repository-url>](https://github.com/rathodrohit12/UserManagementSystem.git)
-cd springbootwiththymeleaf
+cd usermanagementsystem
 ```
 2. **Build the project**:
 ```bash
