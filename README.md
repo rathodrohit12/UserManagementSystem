@@ -16,42 +16,13 @@ A User Management System built with Spring Boot, featuring a layered architectur
 
 ## Project Folder Structure
 ```
-C:.
-├───.idea                      # IntelliJ IDEA project configuration
-│   └───inspectionProfiles     # Inspection profiles for the IDE
-├───.mvn                       # Maven wrapper files
-│   └───wrapper
-├───src
-│   ├───main
-│   │   ├───java
-│   │   │   └───com
-│   │   │       └───rohit
-│   │   │           └───springbootwiththymeleaf
-│   │   │               ├───config              # Configuration classes (e.g., security, data source)
-│   │   │               ├───controller          # Controllers for routing and business logic
-│   │   │               ├───entity              # Entity classes for ORM (e.g., JPA)
-│   │   │               ├───model               # Data models for transfer between layers
-│   │   │               ├───repository          # JPA repositories for database operations
-│   │   │               └───service             # Business logic services
-│   │   └───resources
-│   │       ├───static                # Static resources (CSS, JavaScript)
-│   │       │   └───bootstrap
-│   │       │       ├───css            # CSS files for styling
-│   │       │       └───js             # JavaScript files
-│   │       └───templates             # Thymeleaf HTML templates
-│   └───test
-│       └───java
-│           └───com
-│               └───rohit
-│                   └───springbootwiththymeleaf # Test classes for unit testing and integration tests
-└───target
-    ├───classes                   # Compiled classes and resources
-    ├───generated-sources         # Generated source files (annotations)
-    ├───maven-archiver            # Maven archiver files
-    ├───maven-status              # Compilation status
-    ├───surefire-reports          # Test execution reports
-    └───test-classes              # Compiled test classes
-
+└── springbootwiththymeleaf
+    ├── config              # Configuration classes (e.g., security, data source)
+    ├── controller          # Controllers for routing and business logic
+    ├── entity              # Entity classes for ORM (e.g., JPA)
+    ├── dto                 # Data transfer objects for data transfer between layers
+    ├── repository          # JPA repositories for database operations
+    └── service             # Business logic services
 
 ```
 

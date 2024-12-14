@@ -1,5 +1,4 @@
-package com.rohit.usermanagementsystem.model;
-
+package com.rohit.usermanagementsystem.dto;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotEmpty;
@@ -8,15 +7,14 @@ import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.context.annotation.Scope;
 
-@Scope("session")
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 public class User {
 
-	private int id;
+	private Long id;
 
 	@NotEmpty(message = "Name is required")
 	private String name;
@@ -32,5 +30,9 @@ public class User {
 	@NotEmpty(message = "Password is required")
 	@Size(min = 3, message = "Password must be at least 3 characters long")
 	private String pass;
+
+	private String role;
+
+
 
 }

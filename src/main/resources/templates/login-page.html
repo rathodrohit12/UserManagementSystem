@@ -12,7 +12,7 @@
 
     <div class="container p-4 bg-white rounded shadow-sm" style="max-width: 600px; margin: auto;">
         <h1 class="text-center mb-4">Login</h1>
-        <form th:action="@{/user/login}" method="post">
+        <form th:action="@{/login}" method="post">
             <div th:if="${not #lists.isEmpty(msg)}" class="alert" th:classappend="${msgType}">
                 <span th:text="${msg}"></span>
             </div>
@@ -36,7 +36,7 @@
             </div>
 
             <div class="text-center">
-                <p>Don't have an account? <a th:href="@{/user/register-page}">Register</a></p>
+                <p>Don't have an account? <a th:href="@{/register-page}">Register</a></p>
             </div>
         </form>
     </div>

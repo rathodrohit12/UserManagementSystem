@@ -8,9 +8,9 @@
 <body>
 <section>
     <div class="container my-5 p-4 bg-light rounded shadow-sm" style="max-width: 500px;">
-        <h1 class="text-center mb-4">Register</h1>
+        <h1 class="text-center mb-4" >Register</h1>
 
-        <form th:action="@{/user/register}" th:object="${user}" method="post">
+        <form th:action="@{/register}"  method="post" th:object="${user}">
             <div th:if="${not #lists.isEmpty(msg)}" class="alert" th:classappend="${msgType}">
                 <span th:text="${msg}"></span>
             </div>
@@ -58,7 +58,7 @@
 
             <!-- Login Link -->
             <div class="text-center mt-3">
-                <a th:href="@{/user/login-page}">Already have an account? Login here</a>
+                <a th:href="@{/login-page}">Already have an account? Login here</a>
             </div>
         </form>
     </div>
