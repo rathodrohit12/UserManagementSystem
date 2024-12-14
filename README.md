@@ -38,8 +38,8 @@ To get started with this project, follow these steps:
 1. **Clone the repository**:
 
 ```bash
-git clone [<repository-url>](https://github.com/rathodrohit12/UserManagementSystem.git)
-cd usermanagementsystem
+git clone https://github.com/rathodrohit12/UserManagementSystem.git
+cd UserManagementSystem
 ```
 2. **Build the project**:
 ```bash
