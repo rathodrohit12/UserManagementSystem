@@ -6,12 +6,30 @@
 </head>
 <body>
 <section class="container my-4 bg-light p-4 rounded shadow-sm" style="max-width: 600px; margin: auto;">
+    <!-- Profile Section -->
+    <div class="text-center mb-5">
+        <h2>Profile Information</h2>
+        <!-- Display Profile Picture -->
+        <div>
+            <img th:src="@{${user.profilePicture}}" alt="Profile Picture" class="img-fluid rounded-circle mb-3" style="width: 150px; height: 150px;">
+        </div>
+        <div class="mt-4">
+            <a href="#edit" class="btn btn-primary">Edit Information</a>
+        </div>
+    </div>
 
     <form th:action="@{/user/edit/{id}(id=${user.id})}" th:object="${user}" method="post">
         <h1 class="text-center mb-4">Update Information</h1>
         <div th:if="${not #lists.isEmpty(msg)}" class="alert" th:classappend="${msgType}">
             <span th:text="${msg}"></span>
         </div>
+
+        <!-- Profile Picture Upload -->
+        <div class="mb-3">
+            <label for="profilePicture" class="form-label">Upload New Profile Picture</label>
+            <input type="file" id="profilePicture" th:field="*{profilePicture}" class="form-control" accept="image/*">
+        </div>
+
         <!-- Name Field -->
         <div class="mb-3">
             <label for="name" class="form-label">Enter Name</label>
